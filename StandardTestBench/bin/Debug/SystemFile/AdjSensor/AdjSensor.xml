@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Datas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data1>
+		<RegName>name1</RegName>
+		<RegNameCH>name1</RegNameCH>
+		<ParaUint>MPa</ParaUint>
+	</Data1>
+	<Data1>
+		<RegName>name2</RegName>
+		<RegNameCH>name2</RegNameCH>
+		<ParaUint>MPa</ParaUint>
+	</Data1>
+</Datas>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE7D7C23-5AD4-449A-8E4F-56AEE72681F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StandardTestBench</RootNamespace>
+    <AssemblyName>StandardTestBench</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommDriveBaseXML">
+      <HintPath>..\..\..\lib\CommDriveBaseXML\CommDriveBaseXML\bin\Debug\CommDriveBaseXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DataBaseLib">
+      <HintPath>..\..\..\lib\DataBaseLib\DataBaseLib\bin\Debug\DataBaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DrawCurveDLL">
+      <HintPath>..\..\..\lib\DrawCurveDLL\DrawCurveDLL\bin\Debug\DrawCurveDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLib--Speed">
+      <HintPath>..\..\..\lib\ExcelLib--Speed\ExcelLib--Speed\bin\Debug\ExcelLib--Speed.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdjSensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdjSensor.Designer.cs">
+      <DependentUpon>AdjSensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdjSensorConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdjSensorConfig.Designer.cs">
+      <DependentUpon>AdjSensorConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmConfigForm.Designer.cs">
+      <DependentUpon>AlarmConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmManage.cs" />
+    <Compile Include="FileManger.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadSetParaConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadSetParaConfig.Designer.cs">
+      <DependentUpon>LoadSetParaConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDB.Designer.cs">
+      <DependentUpon>QueryDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryDBConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDBConfig.Designer.cs">
+      <DependentUpon>QueryDBConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPara.Designer.cs">
+      <DependentUpon>SetPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetParaConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetParaConfig.Designer.cs">
+      <DependentUpon>SetParaConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SysDescrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysDescrip.Designer.cs">
+      <DependentUpon>SysDescrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SysDescripConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysDescripConfig.Designer.cs">
+      <DependentUpon>SysDescripConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemConfig.Designer.cs">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestBTSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestBTSetForm.Designer.cs">
+      <DependentUpon>TestBTSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestFormConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestFormConfig.Designer.cs">
+      <DependentUpon>TestFormConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager.cs" />
+    <Compile Include="UserManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagerForm.Designer.cs">
+      <DependentUpon>UserManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZoomForm.Designer.cs">
+      <DependentUpon>ZoomForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdjSensor.resx">
+      <DependentUpon>AdjSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdjSensorConfig.resx">
+      <DependentUpon>AdjSensorConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmConfigForm.resx">
+      <DependentUpon>AlarmConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadSetParaConfig.resx">
+      <DependentUpon>LoadSetParaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QueryDB.resx">
+      <DependentUpon>QueryDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDBConfig.resx">
+      <DependentUpon>QueryDBConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPara.resx">
+      <DependentUpon>SetPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetParaConfig.resx">
+      <DependentUpon>SetParaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysDescrip.resx">
+      <DependentUpon>SysDescrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysDescripConfig.resx">
+      <DependentUpon>SysDescripConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemConfig.resx">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestBTSetForm.resx">
+      <DependentUpon>TestBTSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFormConfig.resx">
+      <DependentUpon>TestFormConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagerForm.resx">
+      <DependentUpon>UserManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZoomForm.resx">
+      <DependentUpon>ZoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
