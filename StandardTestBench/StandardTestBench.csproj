@@ -34,17 +34,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CommDriveBaseXML">
-      <HintPath>..\..\..\lib\CommDriveBaseXML\CommDriveBaseXML\bin\Debug\CommDriveBaseXML.dll</HintPath>
+    <Reference Include="CommDriveBaseXML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\CommDriveBaseXML.dll</HintPath>
     </Reference>
-    <Reference Include="DataBaseLib">
-      <HintPath>..\..\..\lib\DataBaseLib\DataBaseLib\bin\Debug\DataBaseLib.dll</HintPath>
+    <Reference Include="DataBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DataBaseLib.dll</HintPath>
     </Reference>
-    <Reference Include="DrawCurveDLL">
-      <HintPath>..\..\..\lib\DrawCurveDLL\DrawCurveDLL\bin\Debug\DrawCurveDLL.dll</HintPath>
+    <Reference Include="DrawCurveDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DrawCurveDLL.dll</HintPath>
     </Reference>
-    <Reference Include="ExcelLib--Speed">
-      <HintPath>..\..\..\lib\ExcelLib--Speed\ExcelLib--Speed\bin\Debug\ExcelLib--Speed.dll</HintPath>
+    <Reference Include="ExcelLib--Speed, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\ExcelLib--Speed.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
